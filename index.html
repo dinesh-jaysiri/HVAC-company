@@ -13,27 +13,89 @@
     <title>HVAC company - Taino Corp"</title>
   </head>
   <body>
-    <section class="section hero_section" >
+    <section class="section hero_section">
       <nav class="nav collapsible">
-  <div class="container">
-    <a href="/"><img src="images/logo.png" alt="Brand Logo" /></a>
-    <svg class="icon">
-      <use xlink:href="images/sprite.svg#menu"></use>
-    </svg>
+        <div class="container">
+          <a href="/"><img src="images/logo.png" alt="Brand Logo" /></a>
+          <svg class="icon">
+            <use xlink:href="images/sprite.svg#menu"></use>
+          </svg>
 
-    <ul class="list nav__list collapsible__content">
-      <li class="nav__item select"><a href="#">Home</a></li>
-      <li class="nav__item"><a href="#">Testimonials</a></li>
-      <li class="nav__item"><a href="#">Gallery</a></li>
-      <li class="nav__item"><a href="#">About Us</a></li>
-      <li class="nav__item"><a href="#">Coupons</a></li>
-      <li class="nav__item"><a href="#">Contact Us</a></li>
-    </ul>
-  </div>
-</nav>
+          <ul class="list nav__list collapsible__content">
+            <li class="nav__item select"><a href="#">Home</a></li>
+            <li class="nav__item"><a href="#">Testimonials</a></li>
+            <li class="nav__item"><a href="#">Gallery</a></li>
+            <li class="nav__item"><a href="#">About Us</a></li>
+            <li class="nav__item"><a href="#">Coupons</a></li>
+            <li class="nav__item"><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        
+      </nav>
+      <div class="container">
+        <div class="call_top_container">
+          <a class="call_top" href="tel:(718) 571-9403"
+            ><svg class="icon">
+              <use xlink:href="images/sprite.svg#phone"></use>
+            </svg>
+            <div>(718) 571-9403</div></a
+          >
 
-</section>
-    
+          <a href="#"
+            ><img class="powerpay" src="/images/powerpay.png" alt=""
+          /></a>
+        </div>
+        <div class="grid grid--1x2">
+          <div class="hero__text">
+            <h1>Taino Mechanical<br />Contractors Corp</h1>
+            <div class="hero_tagline">
+              Residential and Commercial HVAC Solutions
+            </div>
+            <button class="btn--outline">GET A QUOTE</button>
+          </div>
+
+          <div class="contact-form">
+            <div class="contact-form__header">
+              <div class="title">Free Consultation</div>
+            </div>
+            <form action="" class="form">
+              <div class="input-group">
+                <label class="input-group__lable" for="name">Name*:</label>
+                <input
+                  id="name"
+                  class="input"
+                  placeholder="Jon Doe"
+                  type="text"
+                />
+              </div>
+              <div class="input-group">
+                <label class="input-group__lable" for="name">Email*:</label>
+                <input
+                  id="name"
+                  class="input"
+                  placeholder="yourdomain@example.com"
+                  type="email"
+                />
+              </div>
+              <div class="input-group">
+                <label class="input-group__lable" for="message"
+                  >Message*:</label
+                >
+                <textarea
+                  placeholder="Enter Your Messge Here..."
+                  class="input"
+                  name="message"
+                  rows="5"
+                  cols="25"
+                  id="message"
+                ></textarea>
+              </div>
+              <button class="btn">submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="/js/main.js"></script>
   </body>
