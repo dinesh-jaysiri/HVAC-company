@@ -125,6 +125,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 250px;
 }
 
 .service__head_line {
@@ -148,6 +149,9 @@ a {
 }
 
 @media screen and (max-width: 640px) {
+  .service{
+    height: 39vw;
+  }
   .service__head_line {
     font-size: 4.678vw;
     margin-bottom: 1.5625vw;
@@ -520,6 +524,7 @@ textarea {
   overflow: hidden;
   opacity: 0;
   transition: all 0.3s;
+  z-index: 2;
 }
 
 .nav .icon {
@@ -607,11 +612,6 @@ textarea {
   display: grid;
 }
 
-@media screen and (min-width: 768px) {
-  .grid--1x2 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 
 /* footer section */
 
@@ -850,4 +850,22 @@ textarea {
   margin-right :2.4vw; 
 }
 
+}
+
+/* service */
+
+.service-block {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service_section .grid {
+  grid-template-rows: auto auto;
+  grid-row-gap: 20px;
+}
+
+@media screen and (min-width: 1010px) {
+ .service_section .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
