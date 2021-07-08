@@ -328,6 +328,13 @@ textarea {
   }
 }
 
+@media screen and (max-width: 640px) {
+  .btn--outline {
+    padding: 3.15vw 10.9vw;
+    font-size: 2.8125vw;
+  }
+}
+
 /* container */
 
 .container {
@@ -724,6 +731,8 @@ textarea {
   }
 }
 
+
+
 @media screen and (max-width: 830px) {
   .hero_section .grid--1x2 {
     grid-template-columns: 100%;
@@ -778,6 +787,14 @@ textarea {
   }
   .call_top_container {
     padding-top: 1.562vw;
+  }
+  h1{
+    font-size: 10.9vw;
+    margin-bottom: 3.125vw;
+  }
+  .hero_tagline {
+    font-size: 6.25vw;
+    margin-bottom: 6.25vw;
   }
 }
 
