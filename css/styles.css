@@ -837,6 +837,20 @@ textarea {
   justify-self: center;
 }
 
+.cooling_text{
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  .cooling_text {
+    font-size: 3.7vw;
+    line-height:4.68vw ;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 830px) {
   .section_cooling_content > ul {
     justify-self: start;
