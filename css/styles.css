@@ -784,6 +784,7 @@ textarea {
 @media screen and (max-width: 640px) {
   .hero_section {
     margin-top: 9.8vw;
+    background-position:top;
   }
   .call_top_container {
     padding-top: 1.562vw;
