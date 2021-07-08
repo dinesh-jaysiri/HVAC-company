@@ -1007,10 +1007,10 @@ textarea {
     height: 6.25vw;
   }
   .next {
-    margin-left: 4.424vw;
+    margin-left: 6.424vw;
   }
   .back {
-    margin-right: 4.424vw;
+    margin-right: 6.424vw;
   }
 }
 
@@ -1055,7 +1055,7 @@ textarea {
 
 @media screen and (max-width: 640px) {
   .slider_container ,.carousel ,.slider_section {
-    width: 48.4375vw;
+    width: 70.4375vw;
   }
   .testimonial_container {
     width:49vw ;
